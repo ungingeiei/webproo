@@ -1,0 +1,22 @@
+.frame{
+    width: 100vw;
+    height: 100vh;
+    background: beige;
+}
+.contain{
+    width: 1000px;
+    height: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+img{
+    width: 240px;
+    height: 140px;
+    border-radius: 8px;
+}
+.box{
+    display: grid;
+    width: 250px;
+    height: 400px;
+    grid-template-rows: 30% 70%;
+}

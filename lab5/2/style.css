@@ -1,11 +1,13 @@
 .frame{
     width: 100vm;
     height: 100vh;
+ 
 }
 .contain{
     width: 100%;
     height: 100%;
     background-color: antiquewhite;
+    
     
 }
 .frame{
@@ -14,7 +16,7 @@
     height: 800px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    background-color: aquamarine;
+
     
 }
 .box{
