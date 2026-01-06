@@ -1,0 +1,23 @@
+ol list number
+li list dot
+
+///
+ตัวอย่างใช้ข้อมูลจาก Object
+let person = {
+    name: "Alan",
+    age: 35,
+    hobby: "painting",
+    salary : 15000        
+};
+=> person.name
+
+//
+<body> 
+
+    <img id="image1" src="http://webdev.it.kmitl.ac.th/labdocs/lab3/images/md1.png" > 
+    <img id="image2" src="http://webdev.it.kmitl.ac.th/labdocs/lab3/images/md2.png" > <br> 
+    <button id="myButton" onclick="changeimg();">Change</button>
+    
+</body>
+script>
+    funtion changeimg

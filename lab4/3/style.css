@@ -1,0 +1,24 @@
+@font-face {
+    font-family: UG;
+    src: url(./Noto_Sans_Thai/NotoSansThai-VariableFont.ttf);
+}
+body{
+    font-family: "UG" !important;
+}
+th,td{
+    border: 1px solid rgb(177, 172, 172);
+    
+    
+}
+button{
+    width: fit-content !important;
+    font-size: 12px !important;
+    height: fit-content !important;
+    margin-left: 15px !important;
+}
+input{
+   margin: 10px !important;
+   border: 1px solid black;
+   border-radius: 5px;
+   padding-left: 5px !important;
+}
