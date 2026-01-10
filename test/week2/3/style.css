@@ -1,0 +1,28 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table{
+    height: 300px;
+    width: 600px;
+    justify-items: center;
+    text-align: center;
+    
+}
+th{
+   
+    max-width: 20px !important;
+}
+td{
+    border: 1px black solid;
+    width: 20px;
+    justify-items: center;
+    background-color: white;
+}
+.m{
+    color: red;
+    background-color:lightblue;
+}

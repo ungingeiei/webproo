@@ -1,0 +1,37 @@
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+}
+.contain{
+    width: 1000px;
+    height: 500px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.box{
+    padding-top: 3px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    width: 320px;
+    gap: 10px;
+    margin-top: 10px;
+}
+img{
+    width: 270px;
+    height: 190px;
+
+}
+label{
+    color: white;
+    margin-right: 220px;
+    
+}

@@ -1,0 +1,20 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.contain{
+    width: 300px;
+    height: 500px;
+}
+form{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.box{
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+input{
+    height: 19px;
+    border: 1px solid rgb(208, 206, 202);
+}
