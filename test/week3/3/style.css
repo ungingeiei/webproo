@@ -1,0 +1,19 @@
+body{
+    width: 100nw;
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    border-collapse: collapse;
+    /* จดดดดด border-collapse:collapse */
+
+}
+td,th{
+    border: 1px solid black;
+}

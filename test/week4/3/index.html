@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contain" >
+        <h1>ตารางรายรับ - รายจ่าย</h1>
+        <h2>ยอดคงเหลือ</h2>
+        <h2 id="amount">0</h2>
+        <div class="box">
+            <input type="text" placeholder="รายการ" id="list">
+            <input type="text" placeholder="จำนวน" id="num">
+            <select name="" id="selectt">
+                <option value="-1" id="">รายจ่าย</option>
+                <option value="1" id="">รายรับ</option>
+            </select>
+            <input type="date" id="date" style="height: 20px;">
+            <button style="height: 24px; width: 80px;" onclick="submit()">เพิ่มรายการ</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 130px;">วันที่</th>
+                    <th style="width: 200px;">รายการ</th>
+                    <th>รายรับ</th>
+                    <th>รายจ่าย</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

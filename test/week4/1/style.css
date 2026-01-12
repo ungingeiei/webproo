@@ -1,0 +1,26 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.numm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 300px;
+    width: 200px;
+}
+.number{
+    max-width: 100%;
+    height: 30px;
+    font-size: 25px;
+    border-bottom: 1px solid;
+    margin-right: 4px;
+}
+.op{
+    height: 30px;
+    font-size: 25px;
+    border-bottom: 1px solid;
+}
+h1{
+    font-size: 20px;
+}

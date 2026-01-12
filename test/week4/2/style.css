@@ -1,0 +1,26 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.contain{
+    width: 400px;
+    height: 300px;
+}
+form{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+input{
+    width: 160px;
+    font-size: 20px;
+    height: 20px;
+}
+select{
+    width: 100px;
+}
+.box{
+    margin: 10px;
+}
+button{
+    margin-left: 10px;
+}
