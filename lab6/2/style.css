@@ -1,0 +1,33 @@
+.card{
+
+    width: 250px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    gap: -10px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    img{
+        margin-top: 16px;
+        width: 210px;
+        height: 220px;
+        align-self: center;
+    }
+    h1{
+        margin-left: 20px;
+        font-size: 17px;
+        height: 1px;
+        gap: 3px;
+    }
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 30px;
+    width: 1000px;
+}
+body{
+
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,10 @@
+table{
+    border-collapse: collapse;
+    width: 700px;
+}
+.contain{
+    width: 1000px;
+}
+td,th{
+    border: 1px solid black;
+}

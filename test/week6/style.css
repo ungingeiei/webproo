@@ -1,0 +1,56 @@
+.contain{
+    width: 390px;
+    min-height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    row-gap: 20px;
+    padding: 10px;
+
+    
+}
+body{
+    background-color: rgb(203, 214, 241);
+}
+input{
+    width: 200px;
+}
+button{
+    width: fit-content;
+    height: 20px;
+    margin-bottom: 10px;
+
+}
+.div_add{
+    display: flex;
+    width: 350px;
+    align-items: center;
+    background-color: rgb(209, 209, 209);
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 5px;
+    position: relative; /* วิธีทำให้ปุ่มอยู่ขวาสุด */
+
+    button{
+        background-color:rgb(231, 6, 6) ;
+        position: absolute; /* วิธีทำให้ปุ่มอยู่ขวาสุด */
+        right: 10px;
+        top: 10px;
+        border: 1px solid rgb(231, 6, 6);
+        color: white;
+        border-radius: 3px;
+    }
+}
+.div_eiei{
+     width: 350px;
+    padding: 5px;
+    background-color: rgb(209, 209, 209);
+    height: 30px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+
+}
