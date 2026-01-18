@@ -1,0 +1,16 @@
+.contain{
+    display: grid;
+    background-color: white;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 300px;
+    border: 1px solid ;
+    height: 400px;
+    padding: 5px;
+}
+.box{
+    display: grid;
+    grid-template-rows: 1fr 1fr
+}
+body{
+    background-color: rgb(236, 235, 235);
+}
