@@ -1,0 +1,17 @@
+.box{
+    display: grid;
+    grid-template-columns: 30% 30% 10% 15% 15%;
+    gap: 10px;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+
+}
+.contain{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
