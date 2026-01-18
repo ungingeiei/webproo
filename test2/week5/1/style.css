@@ -1,0 +1,28 @@
+.contain{
+    width: 280px;
+    height: 400px;
+}
+.box{
+    display: flex;
+    
+}
+input{
+    width: 150px;
+    height: 20px;
+}
+button{
+    height: fit-content;
+    font-size: 12px;
+    width: 100px;
+    margin-left: 10px;
+}
+table{
+    width: 250px;
+    text-align: center;
+    
+    
+}
+td,th{
+    border-bottom: 1px solid  black;
+    padding-top: 10px;
+}
