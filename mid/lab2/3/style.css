@@ -1,0 +1,33 @@
+table{
+    width: 500px;
+    height: 500px;
+    border-collapse: collapse;
+    text-align: center;
+}
+.contain{
+
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 600px;
+}
+td{
+    border: 1px solid black;
+}
+th{
+    max-width: 30px !important;
+    min-width: 30px;
+    max-height: 30px;
+    min-height: 30px;
+}
+body{
+    display: flex;
+    justify-content: center;
+
+}
+.e{
+    background-color: aqua;
+    color: red;
+}

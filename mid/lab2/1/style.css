@@ -1,0 +1,31 @@
+.contain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    width: 800px;
+    height: 450px;
+}
+.frame{
+    display: grid;
+    grid-template-rows: 15% 85%;
+    img{
+        width: 240px;
+        height: 160px;
+        display: flex;
+        justify-self: center;
+    }
+    background-color: black;
+    color: white;
+    /* padding-top: 20px; */
+
+}
+label{
+    height: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}

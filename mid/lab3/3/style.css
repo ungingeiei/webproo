@@ -1,0 +1,13 @@
+.contain{
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+}
+table{
+    width: 500px;
+    height: 200px;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid black;
+}
